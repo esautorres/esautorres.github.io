@@ -1,0 +1,55 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+h1 {
+    color: rgb(3, 3, 180);
+    text-align: left;
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: darkgreen;
+    text-align: center;
+}
+
+
+img {
+    height: 300px;
+
+    /* align-content: center; */
+}
+
+em {
+    text-transform: uppercase;
+    font-style: initial;
+}
+
+#first {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+.tacos {
+    color: lawngreen;
+}
+.tacos .big {
+    font-size: 100px;
+}
+.bold { 
+    font-weight: 700;
+}
+.center {
+    text-align: center;
+}
+.nature {
+    color: darkgreen;
+}
+.background {
+    background-color: lightgray;
+}
