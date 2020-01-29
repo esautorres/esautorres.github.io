@@ -1,55 +1,78 @@
 body {
     font-family: 'Noto Sans', sans-serif;
+    color: #007bff;
 }
 
 
-h1 {
-    color: rgb(3, 3, 180);
-    text-align: left;
+.header {
     font-size: 36px;
-    margin-top: 10px;
+    text-align: center;
+}
+
+.subheader {
+    font-size: 24px;
+    text-align: center;
+}
+
+.footer {
+    color: rgb(39, 39, 68);
+}
+
+.footer_youtube {
+    width: 25px;
+    height: 16px
+}
+
+.jumbotron {
+    background-attachment: fixed;
+    background-image: url(cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+
+.margintop {
+    margin-top: 20px;
+}
+
+.marginbottom {
     margin-bottom: 20px;
 }
 
-h2 {
-    color: darkgreen;
+
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.tech_background_1 {
+    background-color: #007bff;
+    color: white;
+    margin-top: 20px;
+}
+
+.title {
+    margin-top: 20px;
+}
+
+.content {
+    font-size: 20px;
+    font-weight: 1;
+    color: whitesmoke;
+}
+
+.content-2 {
+    font-size: 20px;
+    font-weight: 1;
     text-align: center;
 }
 
-
-img {
-    height: 300px;
-
-    /* align-content: center; */
-}
-
-em {
-    text-transform: uppercase;
-    font-style: initial;
-}
-
-#first {
-    text-align: left;
-}
-
-.right {
-    text-align: right;
-}
-.tacos {
-    color: lawngreen;
-}
-.tacos .big {
-    font-size: 100px;
-}
-.bold { 
-    font-weight: 700;
-}
-.center {
-    text-align: center;
-}
-.nature {
-    color: darkgreen;
-}
-.background {
-    background-color: lightgray;
+.img {
+    height: 320px;
 }

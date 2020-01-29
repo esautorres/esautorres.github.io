@@ -1,68 +1,176 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
-    <title>This is my first website, </title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Google Fonts -->
+  <!-- Using Noto Sans font -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Sans+JP|Nunito&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Your own CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>What is Autonomous Driving?</title>
 </head>
+
 <body>
-    <h1>Hi, my name is Esau Torres!</h1>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand text-primary" href="av.html">AV</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <body style="background-color:lightblue;"> 
-
-    <p>Isn't this 
-        <strong>
-            <em>cool?</em>
-        </strong>
-    </p>
-
-    <div>
-        <img src="unnamed.png" width = 1200>
-    </div>
-
-    <div>
-        <a href="about.html">About Page</a>
-    </div>
-
-    <div style="margin-left: 500px">
-        <a href="http://google.com"> rest of the internet awaits</a>
-    </div>
-
-    <table>
-        <tr>
-            <td> I'm in row 1, Cell 1</td>
-        </tr>
-    </table>
-
-    <td>
-        <ul>
-            <li>test 1</li>
-            <li>test 2</li>
-            <li>test 3</li>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="av.html"><i class="fas fa-home" class="btn btn-primary"></i> Home <span
+                class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Learn More
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="technology.html">Basics</a>
+            </div>
+          </li>
         </ul>
-    </td>
-    <table>
-        <tr>
-            <th>
-                <font size = "5" color = "darkblue"> Product</font>
-            </th>
-            <th>
-                <font size = "5" color = "green"> Price </font>
-            </th>
-            
-        </tr>
-        <tr>
-            <td>Basketball</td>
-            <td>$19.99</td>
-        </tr>
-    </table>
+        <form class="form-inline my-2 my-lg-0">
+          <a class="btn btn-outline-primary" href="contact.html" type="submit">Contact Us</a>
+        </form>
+      </div>
+    </div>
+  </nav>
 
-    <td>
-        <ol>
-            <li>test 1</li>
-            <li>test 2</li>
-            <li>test 3</li>
-        </ol>
-    </td>
+  <hr class="my-0">
 
-    <hr>
+  <!-- Full width Jumbotron -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4 text-white text-left">Autonomous Vehicles</h1 class="display-4">
+      <p class="lead">Learn the basics of autonomous vehicle technology</p>
+      <a class="btn btn-primary" href="technology.html" role="button">Learn More</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-primary header">
+        <h2> Benefits </h2>
+      </div>
+    </div>
+
+    <div class="row mt-4">
+      <div class="col-sm-4 text-center text-body">
+        <h1><i class="fas fa-traffic-light"></i></h1>
+        <h5 class="subheader text-body">Reduce Traffic</h5>
+        <p>Traffic congestion can be reduced up to 30%</p>
+      </div>
+      <div class="col-sm-4 text-center text-body">
+        <h1><i class="fas fa-sign"></i></h1>
+        <h5>Repurpose Real Estate</h5>
+        <p>Free up parking lots for other uses (schools, parks, community centers)</p>
+      </div>
+      <div class="col-sm-4 text-center text-body">
+        <h1><i class="fas fa-temperature-high"></i></h1>
+        <h5>Combat Climate Change</h5>
+        <p>Reduce urban CO2 emissions up to 80% worldwide</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <hr class="my-2 marginbottom">
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 margintop">
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/B8R148hFxPw" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+      <div class="col-md-6">
+        <h2 class="title header margintop "> See the technology in action </h2>
+        <table style="height: 185px;">
+          <tbody>
+            <tr>
+              <td class="content-2 text-body"> Fully autonomous (Level 5) cars are undergoing pilots in several
+                cities across the world, but haven't launched to the general public
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="container marginbottom">
+        <div class="col-md-12"></div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="my-4">
+
+  <!-- Footer -->
+  <div class="container">
+    <div class="row my-5">
+      <div class="col-sm-9">
+        <h6>AV</h6>
+        <h6><a href="av.html" class="footer">Home</a></h6>
+        <h6><a href="technology.html" class="footer">Learn More</a></h6>
+        <h6><a href="contact.html" class="footer">Contact Us</a></h6>
+        <ul class="list-unstyled">
+          <li>
+            <a href="https://www.youtube.com/results?search_query=autonomous+vehicle+technology"
+              data-g-event="Press:Icon" data-g-label="">
+              <img class="footer_youtube" src="youtube_logo.png">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h6>Established 2020</h6>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
 </body>
+
 </html>
